@@ -12,6 +12,8 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, FriendsMod.MOD_ID);
 
+    public static RegistryObject<Item> LOGO = ITEMS.register("logo_tab",
+            () -> new Item(new Item.Properties()));
     public static RegistryObject<Item> DOCUMENT = ITEMS.register("agreement_document",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> TICKET = ITEMS.register("ticket",

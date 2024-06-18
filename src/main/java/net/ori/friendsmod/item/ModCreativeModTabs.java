@@ -15,7 +15,7 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FriendsMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> FRIENDS_TAB = CREATIVE_MODE_TABS.register("friends_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.TICKET.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.LOGO.get()))
                     .title(Component.translatable("creativetab.friends_tab"))
                     .displayItems((pParameters, output) -> {
                         output.accept(ModItems.TICKET.get());
