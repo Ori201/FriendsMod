@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.ori.friendsmod.item.ModCreativeModTabs;
 import net.ori.friendsmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -25,6 +26,8 @@ public class FriendsMod {
 
     public FriendsMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
@@ -41,7 +44,8 @@ public class FriendsMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.DOCUMENT);
+            //event.accept(ModItems.DOCUMENT);
+            //event.accept(ModItems.TICKET);
         }
     }
 
