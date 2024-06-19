@@ -5,6 +5,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,7 +23,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, FriendsMod.MOD_ID);
 
     public static final RegistryObject<Block> FR_BLOCK = registerBlock("fr_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE).sound(SoundType.WOOD)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

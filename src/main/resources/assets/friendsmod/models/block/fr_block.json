@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cube",
+  "parent": "minecraft:block/cube_column",
   "textures": {
     "down": "friendsmod:block/fr_block_down",
     "east": "friendsmod:block/fr_block_side",
