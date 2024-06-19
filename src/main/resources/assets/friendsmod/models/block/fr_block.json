@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "friendsmod:block/fr_block_down",
+    "east": "friendsmod:block/fr_block_side",
+    "north": "friendsmod:block/fr_block_front",
+    "particle": "friendsmod:block/fr_block_front",
+    "south": "friendsmod:block/fr_block_side",
+    "up": "friendsmod:block/fr_block_top",
+    "west": "friendsmod:block/fr_block_front"
+  }
+}
