@@ -16,11 +16,13 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FriendsMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> FRIENDS_TAB = CREATIVE_MODE_TABS.register("friends_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.FR_BLOCK.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HEART_FR.get()))
                     .title(Component.translatable("creativetab.friends_tab"))
                     .displayItems((pParameters, output) -> {
+                        output.accept(ModItems.HEART_FR.get());
                         output.accept(ModItems.TICKET.get());
                         output.accept(ModItems.DOCUMENT.get());
+
                         output.accept(ModBlocks.FR_BLOCK.get());
 
 
