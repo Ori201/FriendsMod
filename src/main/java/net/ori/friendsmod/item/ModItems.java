@@ -18,6 +18,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> HEART_FR = ITEMS.register("heart_fr",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Y_O = ITEMS.register("yellownge",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_Y_O = ITEMS.register("raw_yellownge",
+            () -> new Item(new Item.Properties()));
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -46,9 +46,10 @@ public class FriendsMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            //event.accept(ModItems.DOCUMENT);
-            //event.accept(ModItems.TICKET);
             event.accept(ModBlocks.FR_BLOCK);
+        }
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.FRIENDS_ORE);
         }
     }
 

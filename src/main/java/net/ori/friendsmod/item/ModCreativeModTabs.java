@@ -22,8 +22,11 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.HEART_FR.get());
                         output.accept(ModItems.TICKET.get());
                         output.accept(ModItems.DOCUMENT.get());
+                        output.accept(ModItems.Y_O.get());
+                        output.accept(ModItems.RAW_Y_O.get());
 
                         output.accept(ModBlocks.FR_BLOCK.get());
+                        output.accept(ModBlocks.FRIENDS_ORE.get());
 
 
                     })
