@@ -16,6 +16,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.ori.friendsmod.block.ModBlocks;
 import net.ori.friendsmod.item.ModCreativeModTabs;
 import net.ori.friendsmod.item.ModItems;
+import net.ori.friendsmod.loot.ModLootModifiers;
+import net.ori.friendsmod.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -32,6 +34,10 @@ public class FriendsMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "yellownge",
+  "ingredient": {
+    "item": "friendsmod:raw_yellownge"
+  },
+  "result": "friendsmod:raw_yellownge"
+}

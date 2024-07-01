@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "friendsmod:yellownge"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yellownge_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "friendsmod:yellownge_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_yellownge_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "friendsmod:yellownge"
+    ]
+  },
+  "sends_telemetry_event": false
+}

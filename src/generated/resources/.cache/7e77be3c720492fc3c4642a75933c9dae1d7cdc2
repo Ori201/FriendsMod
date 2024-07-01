@@ -1,0 +1,6 @@
+// 1.20.1	2024-06-28T13:04:11.7982223	Tags for minecraft:block mod id friendsmod
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
+071f780023f9deb316c07b8342a0623de846a506 data/minecraft/tags/blocks/mineable/pickaxe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_diamond_tool.json
+a0d2fe6d9c4ec62d5652d31c14b8701aadad57fd data/minecraft/tags/blocks/needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_stone_tool.json

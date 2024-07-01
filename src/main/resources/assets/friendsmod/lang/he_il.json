@@ -7,5 +7,11 @@
   "block.friendsmod.fr_block": "בלוק שרת החברים",
   "block.friendsmod.friends_ore": "עפרת חברים",
 
-  "creativetab.friends_tab": "מוד שרת החברים"
+  "creativetab.friends_tab": "מוד שרת החברים",
+
+  "desc.friendsmod.fr_block.desc": "§6בלוק סמל שרת החברים",
+
+  "item.friendsmod.drive_school_1_music_disc": "בית ספר ההר 1",
+  "item.friendsmod.drive_school_1_music_disc.desc": "שיר בית ספר ההר - אורי גרשוב"
+
 }

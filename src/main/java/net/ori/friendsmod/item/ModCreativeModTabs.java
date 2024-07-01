@@ -28,6 +28,8 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.FR_BLOCK.get());
                         output.accept(ModBlocks.FRIENDS_ORE.get());
 
+                        output.accept(ModItems.DRIVE_SCHOOL_1_MUSIC_DISC.get());
+
 
                     })
                     .build());

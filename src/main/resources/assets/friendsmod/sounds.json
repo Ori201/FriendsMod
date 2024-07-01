@@ -1,0 +1,10 @@
+{
+  "drive_school_1": {
+    "sounds": [
+      {
+        "name": "friendsmod:drive_school_1",
+        "stream": true
+      }
+    ]
+  }
+}
