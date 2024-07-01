@@ -1,4 +1,4 @@
 <h1 align="center">Friends Mod</h1>
 <p align="center">
 <a href="https://modrinth.com/project/friends-mod"><img src="https://img.shields.io/modrinth/dt/friends-mod?logo=modrinth&label=&suffix=%20&style=flat&color=242629&labelColor=5ca424&logoColor=1c1c1c"></a>
-<a href="https://discord.gg/dCzT9XHEWu"><img src="https://img.shields.io/discord/1257376580544761886?color=0098DB&label=Discord&logo=discord&logoColor=0098DB"></a>
+<a href="https://discord.gg/dCzT9XHEWu"><img src="https://img.shields.io/discord/12573765805447618861?color=0098DB&label=Discord&logo=discord&logoColor=0098DB"></a>
