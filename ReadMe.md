@@ -4,3 +4,5 @@
 <a href="https://discord.gg/ZHdwc7up5p"><img src="https://img.shields.io/discord/1257376580544761886?color=0098DB&label=Discord&logo=discord&logoColor=0098DB"></a>
 
 <a href="https://discord.gg/dCzT9XHEWu"><img src="https://img.shields.io/discord/927329821405642772?color=0098DB&label=Discord&logo=discord&logoColor=0098DB"></a>
+
+<iframe src="https://discord.com/widget?id=1257376580544761886&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
