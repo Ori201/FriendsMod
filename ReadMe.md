@@ -10,7 +10,7 @@ This mod is for a Minecraft server named: "Friends Server" .
 
 $${\color{red}Red}$$
 
-<code style="color : name_color">text</code>
+<code style="color : f03c15">text</code>
 
 This mod is in **Hebrew!**
 
