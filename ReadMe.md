@@ -14,4 +14,6 @@ This mod is for a Minecraft server named: "Friends Server" .
 
 This mod is in **Hebrew!**
 
+- ![#c5f015](This mod is in **Hebrew!**) `#c5f015`
+
 **_Soon it will also be in English_**
