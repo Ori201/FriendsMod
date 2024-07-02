@@ -5,8 +5,7 @@
 
 This mod is for a Minecraft server named: "Friends Server" .
 #
-<a
-This mod is in **Hebrew!**/a>
+<aThis mod is in **Hebrew!**/a>
 
 This mod is in **Hebrew!**
 
