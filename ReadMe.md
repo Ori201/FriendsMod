@@ -6,11 +6,11 @@
 This mod is for a Minecraft server named: "Friends Server" .
 #
 
-<code style="color : red">This mod is in **Hebrew!**</code>
 
-$${\color{red}Red}$$
+```diff
+- text in red
+```
 
-<code style="color : f03c15">text</code>
 
 This mod is in **Hebrew!**
 
