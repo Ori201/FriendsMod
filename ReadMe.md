@@ -7,9 +7,6 @@ This mod is for a Minecraft server named: "Friends Server" .
 #
 
 
-```diff
-- text in red
-```
 
 
 This mod is in **Hebrew!**
