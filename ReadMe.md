@@ -6,6 +6,8 @@
 This mod is for a Minecraft server named: "Friends Server" .
 #
 
+[#1589F0](This mod is in **Hebrew!**)
+
 <a style="color:red;">This mod is in **Hebrew!**</a>
 
 This mod is in **Hebrew!**
