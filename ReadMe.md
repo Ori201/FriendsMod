@@ -5,7 +5,11 @@
 
 This mod is for a Minecraft server named: "Friends Server" .
 #
-<aThis mod is in **Hebrew!**/a>
+
+ <a style="color:red;">
+    This mod is in **Hebrew!**
+    
+ </a>
 
 This mod is in **Hebrew!**
 
