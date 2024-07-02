@@ -55,7 +55,7 @@ public class FriendsMod {
             event.accept(ModBlocks.FR_BLOCK);
         }
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-            event.accept(ModBlocks.FRIENDS_ORE);
+            event.accept(ModBlocks.YELLOWNGE_ORE);
         }
     }
 

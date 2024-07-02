@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.ori.friendsmod.FriendsMod;
+import net.ori.friendsmod.block.custom.HeartMakerBlock;
 import net.ori.friendsmod.block.custom.fr_block;
 import net.ori.friendsmod.item.ModItems;
 import org.w3c.dom.Entity;
@@ -25,11 +26,14 @@ public class ModBlocks {
             () -> new fr_block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE).sound(SoundType.WOOD)));
 
     public static final RegistryObject<Block> YELLOWNGE_BLOCK = registerBlock("yellownge_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE).sound(SoundType.WOOD).noLootTable()));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STONE)));
 
-    public static final RegistryObject<Block> FRIENDS_ORE = registerBlock("friends_ore",
+    public static final RegistryObject<Block> YELLOWNGE_ORE = registerBlock("yellownge_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
+
+    public static final RegistryObject<Block> HEART_MAKER = registerBlock("heart_maker",
+            () -> new HeartMakerBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

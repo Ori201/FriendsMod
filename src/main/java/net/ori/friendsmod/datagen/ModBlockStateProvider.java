@@ -3,6 +3,7 @@ package net.ori.friendsmod.datagen;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 import net.ori.friendsmod.FriendsMod;
@@ -15,8 +16,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        blockWithItem(ModBlocks.FRIENDS_ORE);
-        //blockWithItem(ModBlocks.YELLOWNGE_BLOCK);
+        blockWithItem(ModBlocks.YELLOWNGE_ORE);
+        blockWithItem(ModBlocks.YELLOWNGE_BLOCK);
+
+        simpleBlock(ModBlocks.HEART_MAKER.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/heart_maker")));
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

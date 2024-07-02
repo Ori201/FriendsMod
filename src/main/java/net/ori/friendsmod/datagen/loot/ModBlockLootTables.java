@@ -25,8 +25,11 @@ public class ModBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.FR_BLOCK.get());
-        this.add(ModBlocks.FRIENDS_ORE.get(),
-            block -> createCopperLikeOreDrops(ModBlocks.FRIENDS_ORE.get(), ModItems.RAW_Y_O.get()));
+        this.dropSelf(ModBlocks.YELLOWNGE_BLOCK.get());
+        this.dropSelf(ModBlocks.HEART_MAKER.get());
+
+        this.add(ModBlocks.YELLOWNGE_ORE.get(),
+            block -> createCopperLikeOreDrops(ModBlocks.YELLOWNGE_ORE.get(), ModItems.RAW_Y_O.get()));
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

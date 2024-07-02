@@ -2,10 +2,13 @@
   "item.friendsmod.agreement_document": "טופס הסכם",
   "item.friendsmod.ticket": "כרטיס כניסה לשרת",
   "item.friendsmod.heart_fr": "ליבת שרת החברים",
-  "item.friendsmod.yellownge": "צהובתום",
+  "item.friendsmod.yellownge": "מטיל צהובתום",
+  "item.friendsmod.raw_yellownge": "צהובתום גולמי",
 
   "block.friendsmod.fr_block": "בלוק שרת החברים",
-  "block.friendsmod.friends_ore": "עפרת חברים",
+  "block.friendsmod.yellownge_ore": "עפרת צהובתום",
+  "block.friendsmod.yellownge_block": "בלוק צהובתום",
+  "block.friendsmod.heart_maker": "יוצר ליבות",
 
   "creativetab.friends_tab": "מוד שרת החברים",
 

@@ -1,3 +1,5 @@
-// 1.20.1	2024-06-28T13:04:11.7992215	Loot Tables
-4b7f94e4981f17e5027648444747180b6957cc51 data/friendsmod/loot_tables/blocks/friends_ore.json
+// 1.20.1	2024-07-02T22:06:56.0085932	Loot Tables
 c3095566f3a30e6109940508d26874e9238235bd data/friendsmod/loot_tables/blocks/fr_block.json
+00a2c395e33ac64b85c87dc95fd78c3ac3e3e2f7 data/friendsmod/loot_tables/blocks/heart_maker.json
+2925c01534c5ea3725a99b738293a8bf3fa8ce08 data/friendsmod/loot_tables/blocks/yellownge_block.json
+810620e8538ba4ecd63e862ec70d45c5357060a5 data/friendsmod/loot_tables/blocks/yellownge_ore.json

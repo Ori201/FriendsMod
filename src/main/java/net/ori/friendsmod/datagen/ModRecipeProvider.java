@@ -18,7 +18,7 @@ import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
     private static final List<ItemLike> YELLOWNGE_SMELTABLES = List.of(ModItems.RAW_Y_O.get(),
-            ModBlocks.FRIENDS_ORE.get());
+            ModBlocks.YELLOWNGE_ORE.get());
 
     public ModRecipeProvider(PackOutput output) {
         super(output);

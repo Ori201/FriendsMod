@@ -26,7 +26,8 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.RAW_Y_O.get());
 
                         output.accept(ModBlocks.FR_BLOCK.get());
-                        output.accept(ModBlocks.FRIENDS_ORE.get());
+                        output.accept(ModBlocks.YELLOWNGE_ORE.get());
+                        output.accept(ModBlocks.YELLOWNGE_BLOCK.get());
 
                         output.accept(ModItems.DRIVE_SCHOOL_1_MUSIC_DISC.get());
 

@@ -1,0 +1,4 @@
+// 1.20.1	2024-07-02T13:27:14.9314821	Registries
+0d4d236cf3b4d5ddfec925938ca765a26176b72a data/friendsmod/forge/biome_modifier/add_yellownge_ore.json
+13f33f69e3069f0c23e90863206f61c2b711fd06 data/friendsmod/worldgen/configured_feature/yellownge_ore.json
+62d2a50db8199cc1c433390a459173e5cea85199 data/friendsmod/worldgen/placed_feature/yellownge_ore_placed.json

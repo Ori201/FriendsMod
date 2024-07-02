@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "friendsmod:block/friends_ore"
+    "all": "friendsmod:block/yellownge_ore"
   }
 }
