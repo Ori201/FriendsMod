@@ -1,6 +1,7 @@
 package net.ori.friendsmod;
 
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -14,9 +15,12 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.ori.friendsmod.block.ModBlocks;
+import net.ori.friendsmod.block.entity.ModBlockEntities;
 import net.ori.friendsmod.item.ModCreativeModTabs;
 import net.ori.friendsmod.item.ModItems;
 import net.ori.friendsmod.loot.ModLootModifiers;
+import net.ori.friendsmod.screen.HeartMakerScreen;
+import net.ori.friendsmod.screen.ModMenuTypes;
 import net.ori.friendsmod.sound.ModSounds;
 import org.slf4j.Logger;
 
@@ -38,6 +42,9 @@ public class FriendsMod {
         ModLootModifiers.register(modEventBus);
 
         ModSounds.register(modEventBus);
+
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -70,7 +77,7 @@ public class FriendsMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            
+            MenuScreens.register(ModMenuTypes.HEART_MAKER_MENU.get(), HeartMakerScreen::new);
         }
     }
 }

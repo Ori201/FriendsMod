@@ -19,7 +19,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.YELLOWNGE_ORE);
         blockWithItem(ModBlocks.YELLOWNGE_BLOCK);
 
-        simpleBlock(ModBlocks.HEART_MAKER.get(),
+        simpleBlockWithItem(ModBlocks.HEART_MAKER.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/heart_maker")));
     }
 

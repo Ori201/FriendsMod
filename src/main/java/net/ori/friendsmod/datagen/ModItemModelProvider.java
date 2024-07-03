@@ -18,6 +18,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.HEART_FR);
+        simpleItem(ModItems.BROKEN_HEART_FR);
         simpleItem(ModItems.RAW_Y_O);
         simpleItem(ModItems.Y_O);
         simpleItem(ModItems.DOCUMENT);

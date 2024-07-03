@@ -20,6 +20,7 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.friends_tab"))
                     .displayItems((pParameters, output) -> {
                         output.accept(ModItems.HEART_FR.get());
+                        output.accept(ModItems.BROKEN_HEART_FR.get());
                         output.accept(ModItems.TICKET.get());
                         output.accept(ModItems.DOCUMENT.get());
                         output.accept(ModItems.Y_O.get());
@@ -28,6 +29,7 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.FR_BLOCK.get());
                         output.accept(ModBlocks.YELLOWNGE_ORE.get());
                         output.accept(ModBlocks.YELLOWNGE_BLOCK.get());
+                        output.accept(ModBlocks.HEART_MAKER.get());
 
                         output.accept(ModItems.DRIVE_SCHOOL_1_MUSIC_DISC.get());
 

@@ -24,13 +24,15 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> HEART_FR = ITEMS.register("heart_fr",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BROKEN_HEART_FR = ITEMS.register("broken_heart_fr",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> Y_O = ITEMS.register("yellownge",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_Y_O = ITEMS.register("raw_yellownge",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIVE_SCHOOL_1_MUSIC_DISC = ITEMS.register("drive_school_1_music_disc",
-            () -> new RecordItem(8, ModSounds.DRIVE_SCHOOL_1, new Item.Properties().stacksTo(1), 2360));
+            () -> new RecordItem(8, ModSounds.DRIVE_SCHOOL_1, new Item.Properties().stacksTo(1), 2400));
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);

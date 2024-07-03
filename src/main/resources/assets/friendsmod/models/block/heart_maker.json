@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"3": "friendsmod:heart_maker_texture",
-		"particle": "friendsmod:heart_maker_texture"
+		"3": "friendsmod:block/heart_maker_texture",
+		"particle": "friendsmod:block/heart_maker_texture"
 	},
 	"elements": [
 		{
