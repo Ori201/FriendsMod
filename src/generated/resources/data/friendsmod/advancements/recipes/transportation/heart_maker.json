@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "friendsmod:heart_maker"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yellownge": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "friendsmod:yellownge"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_yellownge",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "friendsmod:heart_maker"
+    ]
+  },
+  "sends_telemetry_event": false
+}

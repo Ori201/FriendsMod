@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-02T13:27:14.9314821	Recipes
+// 1.20.1	2024-07-04T09:45:42.4090607	Recipes
 a844f433b4f66b928190ec558b462fd8d352bc70 data/friendsmod/advancements/recipes/building_blocks/fr_block.json
 124a636e73cca600d935d31106d0cd96fba71fd7 data/friendsmod/advancements/recipes/building_blocks/yellownge.json
 8e9db90071a4bb4a4f95e4cc2010f84ad970f150 data/friendsmod/advancements/recipes/building_blocks/yellownge_block.json
@@ -6,7 +6,9 @@ d600a4ea7a033c864a30cfebb3451fee69de5ecf data/friendsmod/advancements/recipes/mi
 acc1c9c0d83b1d03f7560dd8ddd7664826613cd6 data/friendsmod/advancements/recipes/misc/raw_yellownge_from_blasting_yellownge_ore.json
 a1fd5ac94b66f14b8db50164f9e19a35dbf0f004 data/friendsmod/advancements/recipes/misc/raw_yellownge_from_smelting_raw_yellownge.json
 43a9ffd3408b5658268e1633fef48da7297f04f9 data/friendsmod/advancements/recipes/misc/raw_yellownge_from_smelting_yellownge_ore.json
+be701b3602c2e5c298c44ebe5d2818ed54d798a4 data/friendsmod/advancements/recipes/transportation/heart_maker.json
 015100ca5f2be74afe8d5d86d851445736afa345 data/friendsmod/recipes/fr_block.json
+e1c9ad00fab3f0fb140db823b68de8490f4b9bab data/friendsmod/recipes/heart_maker.json
 11a0076aa5633d655985c5c10631c3b16a8a676a data/friendsmod/recipes/raw_yellownge_from_blasting_raw_yellownge.json
 d9cfcc59ddd28150de5b467118ab3965f7ff5927 data/friendsmod/recipes/raw_yellownge_from_blasting_yellownge_ore.json
 11478b370e7a182065fc688adfd75d6e44aa4d5d data/friendsmod/recipes/raw_yellownge_from_smelting_raw_yellownge.json

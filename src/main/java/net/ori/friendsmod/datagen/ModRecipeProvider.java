@@ -9,6 +9,7 @@ import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.ShapelessRecipe;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
+import net.minecraftforge.fml.common.Mod;
 import net.ori.friendsmod.FriendsMod;
 import net.ori.friendsmod.block.ModBlocks;
 import net.ori.friendsmod.item.ModItems;
@@ -53,6 +54,21 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('C', ModItems.HEART_FR.get())
                 .showNotification(true)
                 .unlockedBy(getHasName(ModItems.HEART_FR.get()), has(ModItems.HEART_FR.get()))
+                .save(pWriter);
+
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TRANSPORTATION, ModBlocks.HEART_MAKER.get())
+                .pattern("OIO")
+                .pattern("FAF")
+                .pattern("Y Y")
+                .define('I', Items.ITEM_FRAME)
+                .define('O', Items.ORANGE_CONCRETE)
+                .define('Y', Items.YELLOW_CONCRETE)
+                .define('A', Items.ANVIL)
+                .define('F', ModItems.Y_O.get())
+                .showNotification(true)
+                .unlockedBy(getHasName(ModItems.Y_O.get()), has(ModItems.Y_O.get()))
                 .save(pWriter);
 
     }

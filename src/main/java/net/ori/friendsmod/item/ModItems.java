@@ -32,7 +32,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> DRIVE_SCHOOL_1_MUSIC_DISC = ITEMS.register("drive_school_1_music_disc",
-            () -> new RecordItem(8, ModSounds.DRIVE_SCHOOL_1, new Item.Properties().stacksTo(1), 2400));
+            () -> new RecordItem(8, ModSounds.DRIVE_SCHOOL_1, new Item.Properties().stacksTo(1), 2480));
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);

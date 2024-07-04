@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:anvil"
+    },
+    "F": {
+      "item": "friendsmod:yellownge"
+    },
+    "I": {
+      "item": "minecraft:item_frame"
+    },
+    "O": {
+      "item": "minecraft:orange_concrete"
+    },
+    "Y": {
+      "item": "minecraft:yellow_concrete"
+    }
+  },
+  "pattern": [
+    "OIO",
+    "FAF",
+    "Y Y"
+  ],
+  "result": {
+    "item": "friendsmod:heart_maker"
+  },
+  "show_notification": true
+}

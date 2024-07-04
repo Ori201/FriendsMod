@@ -1,31 +1,33 @@
-[03ιεμι2024 18:55:01.850] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, E:\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.17, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, friendsmod, --all, --output, E:\Downloads from- C\FriendsMod-1.20.1\src\generated\resources, --existing, E:\Downloads from- C\FriendsMod-1.20.1\src\main\resources]
-[03ιεμι2024 18:55:01.854] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[03ιεμι2024 18:55:01.992] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[03ιεμι2024 18:55:02.044] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/E:/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[03ιεμι2024 18:55:02.287] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file E:\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.17\4a403a257bf5240c4c8002d15d910fdc8a117ddc\javafmllanguage-1.20.1-47.2.17.jar is missing mods.toml file
-[03ιεμι2024 18:55:02.291] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file E:\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.17\94d20fdf4631429052f84a8d75a995a91f7259ab\lowcodelanguage-1.20.1-47.2.17.jar is missing mods.toml file
-[03ιεμι2024 18:55:02.294] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file E:\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.17\d546e4c979f6802194438a1a6b87eae9ff358acd\mclanguage-1.20.1-47.2.17.jar is missing mods.toml file
-[03ιεμι2024 18:55:02.297] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file E:\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.17\796a3d575471f5171a1adf1db266f1122e3de780\fmlcore-1.20.1-47.2.17.jar is missing mods.toml file
-[03ιεμι2024 18:55:02.367] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[03ιεμι2024 18:55:03.548] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, E:\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, friendsmod, --all, --output, E:\Downloads from- C\FriendsMod-1.20.1\src\generated\resources, --existing, E:\Downloads from- C\FriendsMod-1.20.1\src\main\resources]
-[03ιεμι2024 18:55:03.980] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [friendsmod]
-[03ιεμι2024 18:55:07.636] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.17, for MC 1.20.1 with MCP 20230612.114412
-[03ιεμι2024 18:55:07.640] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.17 Initialized
-[03ιεμι2024 18:55:08.015] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.17_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.17_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[03ιεμι2024 18:55:08.016] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.17_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.17_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[03ιεμι2024 18:55:08.230] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[03ιεμι2024 18:55:08.285] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 54 ms
-[03ιεμι2024 18:55:08.285] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[03ιεμι2024 18:55:08.334] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 48 ms
-[03ιεμι2024 18:55:08.334] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: friendsmod
-[03ιεμι2024 18:55:08.469] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: friendsmod finished after 134 ms
-[03ιεμι2024 18:55:08.469] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: friendsmod
-[03ιεμι2024 18:55:08.472] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: friendsmod finished after 3 ms
-[03ιεμι2024 18:55:08.472] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id friendsmod
-[03ιεμι2024 18:55:08.483] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id friendsmod finished after 10 ms
-[03ιεμι2024 18:55:08.483] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id friendsmod
-[03ιεμι2024 18:55:08.484] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id friendsmod finished after 0 ms
-[03ιεμι2024 18:55:08.484] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[03ιεμι2024 18:55:08.495] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 11 ms
-[03ιεμι2024 18:55:08.496] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 266 ms
-[03ιεμι2024 18:55:08.503] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 43, old count: 42, new count: 44, removed stale: 0, written: 1
+[04ιεμι2024 18:03:57.326] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, E:\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.17, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, friendsmod, --all, --output, E:\Downloads from- C\FriendsMod-1.20.1\src\generated\resources, --existing, E:\Downloads from- C\FriendsMod-1.20.1\src\main\resources]
+[04ιεμι2024 18:03:57.331] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[04ιεμι2024 18:03:57.535] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[04ιεμι2024 18:03:57.678] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/E:/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[04ιεμι2024 18:03:58.045] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file E:\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.17\4a403a257bf5240c4c8002d15d910fdc8a117ddc\javafmllanguage-1.20.1-47.2.17.jar is missing mods.toml file
+[04ιεμι2024 18:03:58.049] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file E:\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.17\94d20fdf4631429052f84a8d75a995a91f7259ab\lowcodelanguage-1.20.1-47.2.17.jar is missing mods.toml file
+[04ιεμι2024 18:03:58.054] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file E:\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.17\d546e4c979f6802194438a1a6b87eae9ff358acd\mclanguage-1.20.1-47.2.17.jar is missing mods.toml file
+[04ιεμι2024 18:03:58.058] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file E:\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.17\796a3d575471f5171a1adf1db266f1122e3de780\fmlcore-1.20.1-47.2.17.jar is missing mods.toml file
+[04ιεμι2024 18:03:58.149] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[04ιεμι2024 18:03:59.792] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, E:\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, friendsmod, --all, --output, E:\Downloads from- C\FriendsMod-1.20.1\src\generated\resources, --existing, E:\Downloads from- C\FriendsMod-1.20.1\src\main\resources]
+[04ιεμι2024 18:04:00.923] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [friendsmod]
+[04ιεμι2024 18:04:07.077] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.17, for MC 1.20.1 with MCP 20230612.114412
+[04ιεμι2024 18:04:07.082] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.17 Initialized
+[04ιεμι2024 18:04:07.869] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.17_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.17_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[04ιεμι2024 18:04:07.869] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.17_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.2.17_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[04ιεμι2024 18:04:08.183] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[04ιεμι2024 18:04:08.229] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 44 ms
+[04ιεμι2024 18:04:08.229] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[04ιεμι2024 18:04:08.313] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 83 ms
+[04ιεμι2024 18:04:08.314] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: friendsmod
+[04ιεμι2024 18:04:08.495] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: friendsmod finished after 181 ms
+[04ιεμι2024 18:04:08.496] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: friendsmod
+[04ιεμι2024 18:04:08.499] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: friendsmod finished after 3 ms
+[04ιεμι2024 18:04:08.499] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id friendsmod
+[04ιεμι2024 18:04:08.508] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id friendsmod finished after 9 ms
+[04ιεμι2024 18:04:08.509] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id friendsmod
+[04ιεμι2024 18:04:08.509] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id friendsmod finished after 0 ms
+[04ιεμι2024 18:04:08.510] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[04ιεμι2024 18:04:08.519] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 9 ms
+[04ιεμι2024 18:04:08.520] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : friendsmod
+[04ιεμι2024 18:04:08.525] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : friendsmod finished after 5 ms
+[04ιεμι2024 18:04:08.525] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 342 ms
+[04ιεμι2024 18:04:08.533] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 50, old count: 50, new count: 51, removed stale: 0, written: 1
