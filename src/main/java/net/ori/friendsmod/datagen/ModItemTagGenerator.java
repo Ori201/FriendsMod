@@ -23,9 +23,11 @@ public class ModItemTagGenerator extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
         this.tag(ItemTags.MUSIC_DISCS)
-                .add(ModItems.DRIVE_SCHOOL_1_MUSIC_DISC.get());
+                .add(ModItems.DRIVE_SCHOOL_1_MUSIC_DISC.get(),
+                        ModItems.FRIENDS_CITY_MUSIC_DISC.get());
 
         this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
-                .add(ModItems.DRIVE_SCHOOL_1_MUSIC_DISC.get());
+                .add(ModItems.DRIVE_SCHOOL_1_MUSIC_DISC.get(),
+                    ModItems.FRIENDS_CITY_MUSIC_DISC.get());
     }
 }

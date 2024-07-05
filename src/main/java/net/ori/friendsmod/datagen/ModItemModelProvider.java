@@ -25,6 +25,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.TICKET);
 
         simpleItem(ModItems.DRIVE_SCHOOL_1_MUSIC_DISC);
+        simpleItem(ModItems.FRIENDS_CITY_MUSIC_DISC);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

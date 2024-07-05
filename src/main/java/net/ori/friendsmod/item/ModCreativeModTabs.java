@@ -32,6 +32,7 @@ public class ModCreativeModTabs {
                         output.accept(ModBlocks.HEART_MAKER.get());
 
                         output.accept(ModItems.DRIVE_SCHOOL_1_MUSIC_DISC.get());
+                        output.accept(ModItems.FRIENDS_CITY_MUSIC_DISC.get());
 
 
                     })

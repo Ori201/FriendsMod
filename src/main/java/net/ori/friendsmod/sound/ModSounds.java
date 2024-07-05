@@ -15,6 +15,8 @@ public class ModSounds {
 
     public static final RegistryObject<SoundEvent> DRIVE_SCHOOL_1 = registerSoundEvents("drive_school_1");
 
+    public static final RegistryObject<SoundEvent> FRIENDS_CITY = registerSoundEvents("friends_city");
+
 
     private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(FriendsMod.MOD_ID, name)));

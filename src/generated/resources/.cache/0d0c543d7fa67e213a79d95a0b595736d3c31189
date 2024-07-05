@@ -1,6 +1,8 @@
-// 1.20.1	2024-07-04T18:04:08.5264647	Global Loot Modifiers : friendsmod
-ac40eec8ac5b4f70e1d3c9d54c53a52a7e2a2a2d data/forge/loot_modifiers/global_loot_modifiers.json
+// 1.20.1	2024-07-05T10:42:04.0909611	Global Loot Modifiers : friendsmod
+37097217fdd92119ad280fa67b174a265a807e9c data/forge/loot_modifiers/global_loot_modifiers.json
 fde457377970ce74cb24cf8a1aca733f7e598a4c data/friendsmod/loot_modifiers/broken_heart_fr_from_desert_pyramid.json
 ad6f6dcf803fc244fa9a6638dffffb39e8cc17e6 data/friendsmod/loot_modifiers/broken_heart_fr_from_jungle_temple.json
+fb4f52089f1749f1fff59cf3a9117d111d558ed7 data/friendsmod/loot_modifiers/broken_heart_fr_from_suspicious_sand.json
 e25e67c82cf9244c87d2dff90d7b498137ab0837 data/friendsmod/loot_modifiers/broken_heart_fr_from_village_weaponsmith.json
 48ce02efef881649a9a4d6ca93869b122271fc69 data/friendsmod/loot_modifiers/heart_fr_from_buried_treasure.json
+4898ede0b0af9bee9b24f927d3aa9697c1588c92 data/friendsmod/loot_modifiers/heart_fr_from_village_weaponsmith.json

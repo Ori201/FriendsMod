@@ -2,7 +2,9 @@
   "entries": [
     "friendsmod:broken_heart_fr_from_village_weaponsmith",
     "friendsmod:broken_heart_fr_from_desert_pyramid",
+    "friendsmod:broken_heart_fr_from_suspicious_sand",
     "friendsmod:heart_fr_from_buried_treasure",
+    "friendsmod:heart_fr_from_village_weaponsmith",
     "friendsmod:broken_heart_fr_from_jungle_temple"
   ],
   "replace": false
